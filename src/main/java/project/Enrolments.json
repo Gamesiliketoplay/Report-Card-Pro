@@ -1,0 +1,14 @@
+[
+    
+    {
+    "StudentID": 42572092802,
+    "CourseCode": "ENG4UI",
+    "Marks": [83, 89]
+    },
+    {
+    "StudentID": 42572092802,
+    "CourseCode": "ICS4UI",
+    "Marks": [88, 73]
+    } 
+
+]

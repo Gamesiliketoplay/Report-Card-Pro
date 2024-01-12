@@ -1,0 +1,13 @@
+[
+    {
+        "code": "ENG4UI",
+        "name": "English",
+        "assignments": "Homework, Exam"
+    },
+    {
+        "code": "ISC4UI",
+        "name": "Intro to Computers",
+        "assignments": "Project, Quiz"
+    }
+    
+]

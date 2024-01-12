@@ -15,6 +15,7 @@ public class Main {
         List<Classes> courses = reader.GetCourses();
         List<Enrolments> grades = reader.GetGrades();
         List<Student> infos = reader.GetStundentInfo();
+        // hey
         for (Classes course : courses) {
             System.out.print(String.format("Code: %s, Name: %s, Assignments: %s%n",
                     course.getCode(), course.getName(), course.getAssignments()));

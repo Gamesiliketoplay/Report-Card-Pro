@@ -1,6 +1,6 @@
 package project;
 
-import java.util.List;
+import java.util.ArrayList;
 
 import javax.swing.SwingUtilities;
 
@@ -12,10 +12,9 @@ public class Main {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> new Panel());
         StudentManager reader = new StudentManager();
-        List<Classes> courses = reader.GetCourses();
-        List<Enrolments> grades = reader.GetGrades();
-        List<Student> infos = reader.GetStundentInfo();
-        // hey
+        ArrayList<Classes> courses = reader.GetCourses();
+        ArrayList<Enrolments> grades = reader.getGrades();
+        ArrayList<Student> infos = reader.GetStundentInfo();
         for (Classes course : courses) {
             System.out.print(String.format("Code: %s, Name: %s, Assignments: %s%n",
                     course.getCode(), course.getName(), course.getAssignments()));

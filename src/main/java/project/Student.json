@@ -1,8 +1,19 @@
 [
+    
     {
         "firstName":"James",
         "lastName":"Ouellet",
         "StudentID": 42572092802
+    },
+    {
+        "firstName":"Paul",
+        "lastName":"Smith",
+        "StudentID": 42572928033
+    },
+    {
+        "firstName":"Bob",
+        "lastName":"Williams",
+        "StudentID": 42572928333
     }
     
 ]

@@ -9,6 +9,26 @@
     "StudentID": 42572092802,
     "CourseCode": "ICS4UI",
     "Marks": [88, 73]
-    } 
-
+    },
+    {
+        "StudentID": 42572928033,
+        "CourseCode": "ENG4UI",
+        "Marks": [77, 81]
+    },
+    {
+        "StudentID": 42572928033,
+        "CourseCode": "ISC4UI",
+        "Marks": [79, 84]
+    },
+    {
+        "StudentID": 42572928333,
+        "CourseCode": "ENG4UI",
+        "Marks": [99, 91]
+    },
+    {
+        "StudentID": 42572928333,
+        "CourseCode": "ISC4UI",
+        "Marks": [88, 81]
+    }
+    
 ]

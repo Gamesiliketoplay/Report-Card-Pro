@@ -6,6 +6,8 @@ import com.google.gson.reflect.TypeToken;
 import java.io.FileReader;
 import java.io.IOException;
 import java.lang.reflect.Type;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class StudentManager {
@@ -29,6 +31,7 @@ public class StudentManager {
         Gson gson = new Gson();
 
         try (FileReader reader = new FileReader(enrolmentsFile)) {
+
             Type listType = new TypeToken<List<Enrolments>>() {
             }.getType();
 

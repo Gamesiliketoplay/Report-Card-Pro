@@ -11,10 +11,11 @@ public class Main {
      */
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> new Panel());
-        StudentManager reader = new StudentManager();
+        StudentData reader = new StudentData();
         ArrayList<Classes> courses = reader.GetCourses();
         ArrayList<Enrolments> grades = reader.getGrades();
         ArrayList<Student> infos = reader.GetStundentInfo();
+
         for (Classes course : courses) {
             System.out.print(String.format("Code: %s, Name: %s, Assignments: %s%n",
                     course.getCode(), course.getName(), course.getAssignments()));

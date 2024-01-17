@@ -1,11 +1,12 @@
 package project;
 
 import java.io.Serializable;
+import java.util.List;
 
 public class Classes implements Serializable {
     private String code;
     private String name;
-    private String assignments;
+    private List<String> assignments;
 
     // Getters and setters for the fields
 
@@ -25,11 +26,11 @@ public class Classes implements Serializable {
         this.name = name;
     }
 
-    public String getAssignments() {
+    public List<String> getAssignments() {
         return assignments;
     }
 
-    public void setAssignments(String assignments) {
+    public void setAssignments(List<String> assignments) {
         this.assignments = assignments;
     }
 }

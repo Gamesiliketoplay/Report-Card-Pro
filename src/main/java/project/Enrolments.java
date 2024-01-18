@@ -32,4 +32,8 @@ public class Enrolments implements Serializable {
     public void setMarks(int[] Marks) {
         this.Marks = Marks;
     }
+
+    public String toString() {
+        return String.format("CourseCode: %s, Marks: %s, StudentId: %s", CourseCode, Marks, StudentID);
+    }
 }

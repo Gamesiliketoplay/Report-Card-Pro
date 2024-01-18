@@ -32,4 +32,9 @@ public class Student implements Serializable {
     public void setStudentID(String StudentID) {
         this.StudentID = StudentID;
     }
+
+    public String toString() {
+        return String.format("Firstname: %s, Lastname: %s, StudentId: %s", firstName, lastName, StudentID);
+    }
+
 }

@@ -2,12 +2,22 @@
     {
         "code": "ENG4UI",
         "name": "English",
-        "assignments": "Homework, Exam"
+        "assignments": ["Quiz","Midterm","Quiz","Final"]
     },
     {
         "code": "ISC4UI",
         "name": "Intro to Computers",
-        "assignments": "Project, Quiz"
+        "assignments": ["Quiz","Midterm","Quiz","Final"]
+    },
+    {
+        "code": "MDM4UI",
+        "name": "Data",
+        "assignments": ["Quiz","Midterm","Quiz","Final"]
+    },
+    {
+        "code": "MHF4UI",
+        "name": "Advanced Functions",
+        "assignments": ["Quiz","Midterm","Quiz","Final"]
     }
     
 ]

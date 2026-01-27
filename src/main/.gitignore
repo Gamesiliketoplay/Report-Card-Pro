@@ -1,0 +1,13 @@
+# Ignore the compiled output folder
+target/
+
+# Ignore IntelliJ's local settings and configuration
+.idea/
+*.iml
+
+# Ignore local student data file (so it doesn't get overwritten by others)
+students.ser
+
+# Ignore OS-specific temporary files
+.DS_Store
+Thumbs.db

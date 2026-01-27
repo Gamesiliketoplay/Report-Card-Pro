@@ -28,6 +28,7 @@ As the **Lead UI Developer**, I was responsible for the entire visual layer and 
 * **Custom Dialog Components:** Created reusable `Dialog<T>` classes for complex tasks like "Modify Marks," ensuring valid data entry before updating the model.
 
 ## How to Run
-1.  Clone the repository.
-2.  Ensure Maven is installed to handle the `Gson` dependency.
-3.  Run `GUI.java` as the entry point.
+1. Clone the Repository Clone this project to your local machine using terminal or your IDE's Git tool.
+2. Import as a Maven Project Open the project in IntelliJ IDEA or Eclipse. Ensure you import it as a Maven project so that the pom.xml file can automatically download the Gson and JavaFX dependencies.
+3. Run the Entry Point Locate and run Main.java (inside the project package).
+4. Troubleshooting Dependencies If you see "Package not found" errors, open the Maven tab in your IDE and click Reload All Maven Projects.

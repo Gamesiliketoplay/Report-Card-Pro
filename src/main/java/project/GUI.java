@@ -1,3 +1,4 @@
+package project;
 import javafx.scene.layout.Region;
 import javafx.scene.input.MouseButton;
 import javafx.scene.layout.VBox;
@@ -121,7 +122,7 @@ public class GUI extends Application {
 
         Scene scene = new Scene(gridPane, 600, 400);
 
-      scene.getStylesheets().add(getClass().getResource("styles.css").toExternalForm());
+  //    scene.getStylesheets().add(getClass().getResource("styles.css").toExternalForm());
 
         primaryStage.setScene(scene);
 
@@ -164,7 +165,7 @@ public class GUI extends Application {
             viewMoreDialog(selectedStudent);
         }
     });
-    contextMenu.getItems().add(viewMoreItem);
+  //  contextMenu.getItems().add(viewMoreItem);
 
     row.setOnContextMenuRequested(event -> {
         contextMenu.show(row, event.getScreenX(), event.getScreenY());

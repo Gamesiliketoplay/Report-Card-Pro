@@ -37,7 +37,6 @@ src/main/java/project/
 ├── EnrolmentManager.java  // Logic for filtering enrollments by ID
 ├── StudentData.java       // Handles JSON parsing for initial data
 └── *.json                 // Seed data (Classes.json, Student.json, Enrolments.json)
-## 📂 Project Structure
 
 ```
 

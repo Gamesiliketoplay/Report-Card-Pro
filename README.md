@@ -1,34 +1,38 @@
-# Report Card Pro
+# Report-Card-Pro 📊
 
-## Overview
-Report Card Pro is a comprehensive Student Management System (SMS) built with **Java** and **JavaFX**. It allows educators and administrators to manage student enrollments, track academic performance across different courses, and generate dynamic report cards.
+**Report-Card-Pro** is a Java-based desktop application designed to streamline the management of student enrollments, grades, and report card generation. Built with **JavaFX** and **Maven**, it features a graphical user interface (GUI) that allows educators or administrators to easily add students, modify grades, and calculate averages automatically.
 
-The system utilizes a hybrid data approach, parsing static course data from **JSON** while maintaining runtime state via Java Serialization.
+## 🚀 Features
 
-## Key Features
-* **Student Dashboard:** A responsive `TableView` interface to view, sort, and manage the student roster in real-time.
-* **Course Management:** Dynamic handling of courses (Math, Science, etc.) and specific assignment weighting.
-* **Grade Entry System:** Interactive dialogs for modifying marks with built-in input validation.
+* **Interactive GUI:** Built with JavaFX, featuring a responsive table view for managing student data.
+* **Student Management:**
+    * **Add Students:** Easy input forms to register new students.
+    * **Remove Students:** Delete student records directly from the interface.
+    * **View Details:** Context menus to view specific student information.
+* **Grade Management:**
+    * **Modify Marks:** Double-click any student to open a dialog for editing class names and assignment scores.
+    * **Dynamic Calculations:** Automatically calculates class averages and overall student averages based on assignment inputs.
 * **Data Persistence:**
-    * **Loading:** utilizing `Google Gson` to parse initial student/course data from JSON.
-    * **Saving:** Implements `Serializable` to persist user changes and application state between sessions.
-* **Dynamic UI:** Context-aware menus (Right-click to "View More") and modal dialogs for adding/removing students.
+    * Uses Java Serialization (`students.ser`) to save and load student data locally, ensuring data isn't lost when the application closes.
+    * Includes JSON integration (via GSON) for parsing initial course and enrollment data.
 
-## Technical Architecture
-* **Language:** Java 17+
-* **Frontend:** JavaFX (Stage, Scene, Nodes, Event Handling)
-* **Data Handling:** Google Gson (JSON Parsing), Java IO (Serialization)
+## 🛠️ Tech Stack
+
+* **Language:** Java 17
 * **Build Tool:** Maven
+* **GUI Framework:** JavaFX (Controls & FXML)
+* **Data Handling:** GSON (Google JSON), Java Serialization
+* **IDE Support:** Optimized for Replit and VS Code
 
-## My Contributions (GUI & UX Architecture)
-As the **Lead UI Developer**, I was responsible for the entire visual layer and user interaction flow:
-* **Designed the Main Interface:** Built a robust `GridPane` layout containing specific action controls and a dynamic data table.
-* **Event-Driven Programming:** Implemented listeners for mouse interactions, including double-click to edit and right-click context menus.
-* **Data Binding:** Leveraged `ObservableList` and `Property` bindings to ensure the UI stays completely in sync with the backend data model.
-* **Custom Dialog Components:** Created reusable `Dialog<T>` classes for complex tasks like "Modify Marks," ensuring valid data entry before updating the model.
+## 📂 Project Structure
 
-## How to Run
-1. Clone the Repository Clone this project to your local machine using terminal or your IDE's Git tool.
-2. Import as a Maven Project Open the project in IntelliJ IDEA or Eclipse. Ensure you import it as a Maven project so that the pom.xml file can automatically download the Gson and JavaFX dependencies.
-3. Run the Entry Point Locate and run Main.java (inside the project package).
-4. Troubleshooting Dependencies If you see "Package not found" errors, open the Maven tab in your IDE and click Reload All Maven Projects.
+```text
+src/main/java/project/
+├── GUI.java              // Main application logic and UI definitions
+├── Main.java             // Entry point of the application
+├── Student.java          // Student data model
+├── Classes.java          // Course data model
+├── Enrolments.java       // Enrollment and grade data model
+├── StudentManager.java   // Logic for searching and managing students
+├── StudentData.java      // Handles JSON parsing for initial data
+└── *.json                // Seed data for Students, Classes, and Enrollments

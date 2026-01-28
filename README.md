@@ -53,7 +53,6 @@ src/main/java/project/
 1. **Clone the repository:**
 ```bash
 git clone https://github.com/Gamesiliketoplay/Report-Card-Pro.git
-cd Report-Card-Pro
 
 ```
 

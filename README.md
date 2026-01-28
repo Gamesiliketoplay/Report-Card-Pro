@@ -1,3 +1,4 @@
+```markdown
 # Report-Card-Pro 📊
 
 **Report-Card-Pro** is a Java-based desktop application designed to streamline the management of student enrollments, grades, and report card generation. Built with **JavaFX** and **Maven**, it features a graphical user interface (GUI) that allows educators or administrators to easily add students, modify grades, and calculate averages automatically.
@@ -27,6 +28,7 @@
 ## 📂 Project Structure
 
 ```text
+src/main/java/project/
 ├── GUI.java               // Main application logic and UI definitions
 ├── Main.java              // Entry point of the application
 ├── Student.java           // Student data model
@@ -38,6 +40,7 @@
 └── *.json                 // Seed data (Classes.json, Student.json, Enrolments.json)
 
 ```
+
 ## ⚙️ Installation & Setup
 
 ### Prerequisites

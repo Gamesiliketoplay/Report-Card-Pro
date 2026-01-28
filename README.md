@@ -39,18 +39,6 @@ src/main/java/project/
 └── *.json                 // Seed data (Classes.json, Student.json, Enrolments.json)
 ## 📂 Project Structure
 
-```text
-src/main/java/project/
-├── GUI.java               // Main application logic and UI definitions
-├── Main.java              // Entry point of the application
-├── Student.java           // Student data model
-├── Classes.java           // Course data model
-├── Enrolments.java        // Enrollment data model
-├── StudentManager.java    // Logic for searching/managing students
-├── EnrolmentManager.java  // Logic for filtering enrollments by ID
-├── StudentData.java       // Handles JSON parsing for initial data
-└── *.json                 // Seed data (Classes.json, Student.json, Enrolments.json)
-
 ```
 
 ## ⚙️ Installation & Setup

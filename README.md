@@ -1,4 +1,3 @@
-```markdown
 # Report-Card-Pro 📊
 
 **Report-Card-Pro** is a Java-based desktop application designed to streamline the management of student enrollments, grades, and report card generation. Built with **JavaFX** and **Maven**, it features a graphical user interface (GUI) that allows educators or administrators to easily add students, modify grades, and calculate averages automatically.
